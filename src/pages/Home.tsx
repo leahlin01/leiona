@@ -6,17 +6,17 @@ import avatar from '../assets/avatar.png';
 
 const Home: React.FC = () => {
   return (
-    <div className='flex flex-col justify-center '>
-      <div className='flex gap-[20px] flex-wrap sm:mx-[20px] md:mx-[40px] lg:mx-36'>
-        <div className='max-w-[400px] mx-auto my-8 bg-white p-8 rounded-lg shadow-lg'>
+    <div className='flex flex-col justify-center'>
+      <div className='flex gap-[20px] flex-wrap sm:mx-[20px] md:mx-[40px] lg:mx-36 text-left'>
+        <div className='max-w-[400px] mx-auto my-8 p-8 rounded-[40px] shadow-lg'>
           <h1 className='text-3xl font-bold mb-4'>
             Curso de escucha y conversación de español A1 de 4 Semanas
           </h1>
           <p className='text-xl text-brown-600 mb-4'>€129</p>
           <div className='flex items-center mb-4'>
             <span className='text-yellow-500'>★★★★☆</span>
-            <span className='ml-2 text-gray-500'>
-              Ruta de aprendizaje única | Curso en línea
+            <span className='ml-2'>
+              Curso en línea
             </span>
           </div>
           <p className='mb-4'>
@@ -38,7 +38,7 @@ const Home: React.FC = () => {
         <div className='max-w-[500px] mx-auto my-8 bg-white p-8 rounded-lg'>
           <h2 className='text-2xl font-bold mt-6 mb-4'>Plan del curso:</h2>
           <p className='mb-2'>De lunes a viernes, de 7:30 p.m. a 9:30 p.m.</p>
-          <ul className='list-disc list-inside mb-4 text-left'>
+          <ul className='list-disc list-outside mb-4 text-left text-[1rem] leading-[1.5rem]'>
             <li>
               Lunes: lectura guiada del vocabulario nuevo del texto de
               comprensión auditiva de la semana.
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className='p-6 px-4 py-8 mx-[20px] md:mx-36'>
-        <div className='bg-white rounded-lg p-6 mb-6'>
+        <div className='bg-white rounded-lg p-6 mb-6 text-left'>
           <h2 className='text-2xl font-bold mb-4 text-left'>课程特点</h2>
           <ul className='list-disc list-inside text-left'>
             <li>habla rápida</li>
@@ -86,17 +86,14 @@ const Home: React.FC = () => {
             <li> Introducción rápida al español</li>
             <li> Lugar de estudio flexible.</li>
           </ul>
-          <div className='mt-4'>
+          <button className='bg-[#451a03] text-white font-bold py-2 px-4 rounded my-4'>
+              Contáctanos
+            </button>
             <img
               src={city}
               alt='课程图片'
-              className='w-full h-auto rounded-lg'
+              className='w-full h-auto rounded-lg mt-4'
             />
-            <button className='bg-[#451a03] text-white font-bold py-2 px-4 rounded my-4'>
-              Contáctanos
-            </button>
-          </div>
-
           <div className='bg-white p-8'>
             <h1 className='text-3xl font-bold mb-4'>
               Curso de chino de tres meses
@@ -158,14 +155,14 @@ const Home: React.FC = () => {
           ¿Preguntas sobre los cursos?
         </h1>
         <div className='space-y-4'>
-          <div className='card p-4 rounded-lg shadow'>
+          <div className='p-4 rounded-lg'>
             <h2 className='font-semibold'>
               ¿Cuánto tiempo hay que dedicar al estudio cada día para ver un
               progreso notable?
             </h2>
             <p>Al menos tres horas de práctica después de clase.</p>
           </div>
-          <div className='card p-4 rounded-lg shadow'>
+          <div className='p-4 rounded-lg'>
             <h2 className='font-semibold'>
               ¿Pueden aprender incluso aquellos que no tienen conocimientos
               previos de español?
@@ -177,7 +174,7 @@ const Home: React.FC = () => {
               día.
             </p>
           </div>
-          <div className='card p-4 rounded-lg shadow'>
+          <div className='p-4 rounded-lg'>
             <h2 className='font-semibold'>
               ¿Pueden aprender incluso aquellos que no tienen ninguna base en
               chino?
@@ -187,7 +184,7 @@ const Home: React.FC = () => {
               que no tienes que preocuparte por no poder aprender.
             </p>
           </div>
-          <div className='card p-4 rounded-lg shadow'>
+          <div className='p-4 rounded-lg'>
             <h2 className='font-semibold'>西语零基础也可以学习吗？</h2>
             <p>A1课程就是针对西语零基础学生，听说读写全面练习，开始即开口。</p>
           </div>

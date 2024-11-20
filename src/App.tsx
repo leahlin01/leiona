@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <nav className='w-full px-8 py-6 flex justify-between items-center bg-[#FEFBED]'>
+      <nav className='w-full px-8 py-6 flex justify-between items-center bg-[#FFFFFF] fixed top-0 shadow-lg z-[10]'>
         <div
           className='text-lg font-bold hidden sm:block'
           onClick={() => navigate('/')}
@@ -56,7 +56,7 @@ function App() {
         </div>
       </nav>
 
-      <div className='pb-[148px]'>
+      <div className='py-[148px]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/privacy' element={<Privacy />} />
@@ -64,12 +64,8 @@ function App() {
         </Routes>
       </div>
 
-      <footer className='bg-[#FEFBED] text-foreground fixed bottom-0 left-0 w-full py-4 text-[0.8em]'>
-        <p className='mb-1'>
-          If you have any questions or need support, please reach out to us
-          <i className='fas fa-envelope mr-2'></i> - hosea0814@gmail.com
-        </p>
-        <p>© All rights reserved.</p>
+      <footer className='bg-[#FFFFFF] text-foreground fixed bottom-0 left-0 w-full py-4'>
+        <p className='text-[1em]'>© All rights reserved.</p>
       </footer>
 
       {showPopup && (
