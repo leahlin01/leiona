@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown";
+import React from "react";
+// import ReactMarkdown from "react-markdown";
 
 const CourseOne: React.FC = () => {
   // const [markdownContent, setMarkdownContent] = useState<string>("");

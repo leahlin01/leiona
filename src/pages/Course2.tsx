@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const CourseTwo: React.FC = () => {
   return (
-    <div className='flex flex-col justify-center sm:mx-[20px] md:mx-[40px] lg:mx-36 text-left'>
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>Nombre del curso</h2>
-        <ul className='list-disc list-outside text-left pl-4'>
-          <li>Curso de Introducción al Chino para Principiantes 520€/人</li>
+    <div className="flex flex-col justify-center sm:mx-[20px] md:mx-[40px] lg:mx-36 text-left">
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">
+          Curso de Introducción al Chino para Principiantes 520€/人
+        </h2>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Objetivo del curso: Ayudar a los estudiantes sin conocimientos
             previos de chino a dominar el pinyin, el vocabulario y las
@@ -17,11 +18,11 @@ const CourseTwo: React.FC = () => {
         </ul>
       </div>
 
-      <hr className='border-gray-300 my-4' />
+      <hr className="border-gray-300 my-4" />
 
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>Plan del curso</h2>
-        <ul className='list-disc list-outside text-left pl-4'>
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">Plan del curso</h2>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Duración total: 8 semanas, 3 clases por semana, cada clase de 1.5
             horas
@@ -37,15 +38,15 @@ const CourseTwo: React.FC = () => {
         </ul>
       </div>
 
-      <hr className='border-gray-300 my-4' />
+      <hr className="border-gray-300 my-4" />
 
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">
           Diseño del contenido del curso
         </h2>
 
         <h3>Primera etapa: Pinyin y pronunciación (Semana 1-2)</h3>
-        <ul className='list-disc list-outside text-left pl-4'>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Objetivo: Dominar el sistema pinyin del chino y lograr una
             pronunciación precisa para leer palabras simples.
@@ -63,10 +64,10 @@ const CourseTwo: React.FC = () => {
           </li>
         </ul>
 
-        <h3 className='mt-6'>
+        <h3 className="mt-6">
           Segunda etapa: Radicales y estructuras (Semana 5-8)
         </h3>
-        <ul className='list-disc list-outside text-left pl-4'>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Objetivo: Dominar los radicales comunes y la composición estructural
             de los caracteres.
@@ -90,10 +91,10 @@ const CourseTwo: React.FC = () => {
           </li>
         </ul>
 
-        <h3 className='mt-6'>
+        <h3 className="mt-6">
           Tercera etapa: Práctica avanzada y creación (Semana 9-12)
         </h3>
-        <ul className='list-disc list-outside text-left pl-4'>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Objetivo: Escribir oraciones completas y experimentar la belleza
             artística del estilo Kaishu.
@@ -115,11 +116,11 @@ const CourseTwo: React.FC = () => {
         </ul>
       </div>
 
-      <hr className='border-gray-300 my-4' />
+      <hr className="border-gray-300 my-4" />
 
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>Tareas adicionales</h2>
-        <ul className='list-disc list-outside text-left pl-4'>
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">Tareas adicionales</h2>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Ejercicios semanales de trazos y práctica de caracteres (10-15
             minutos al día)
@@ -135,11 +136,11 @@ const CourseTwo: React.FC = () => {
         </ul>
       </div>
 
-      <hr className='border-gray-300 my-4' />
+      <hr className="border-gray-300 my-4" />
 
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>Puntos destacados del curso</h2>
-        <ul className='list-disc list-outside text-left pl-4'>
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">Puntos destacados del curso</h2>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Enfoque en lo básico: Desde los trazos hasta la estructura,
             fortaleciendo las bases de la caligrafía.
@@ -159,11 +160,11 @@ const CourseTwo: React.FC = () => {
         </ul>
       </div>
 
-      <hr className='border-gray-300 my-4' />
+      <hr className="border-gray-300 my-4" />
 
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>Resultados del aprendizaje</h2>
-        <ul className='list-disc list-outside text-left pl-4'>
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">Resultados del aprendizaje</h2>
+        <ul className="list-disc list-outside text-left pl-4">
           <li>
             Dominar el sistema pinyin y las estructuras básicas del idioma
             chino
@@ -177,10 +178,10 @@ const CourseTwo: React.FC = () => {
         </ul>
       </div>
 
-      <hr className='border-gray-300 my-4' />
+      <hr className="border-gray-300 my-4" />
 
-      <div className='p-8 text-left'>
-        <h2 className='text-2xl font-bold mb-4'>¿Por qué aprender chino?</h2>
+      <div className="p-8 text-left">
+        <h2 className="text-2xl font-bold mb-4">¿Por qué aprender chino?</h2>
         <p>
           El chino es uno de los idiomas más hablados del mundo y una de las
           seis lenguas oficiales de las Naciones Unidas. Aprender chino no solo

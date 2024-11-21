@@ -168,7 +168,7 @@ const Home: React.FC = () => {
         <div className="self-stretch shrink-0 flex justify-center items-start gap-x-[64px]">
           <div className="grow basis-0 flex flex-col items-start gap-y-[32px] overflow-hidden">
             <div className="flex w-[116px] h-[19px] overflow-hidden">
-              {Array.from({ length: 5 }).map((i) => (
+              {Array.from({ length: 5 }).map((_i) => (
                 <img src={strike} className="shrink-0 pr-[4px]" />
               ))}
             </div>
@@ -188,7 +188,7 @@ const Home: React.FC = () => {
           </div>
           <div className="grow basis-0 flex flex-col items-start gap-y-[32px] overflow-hidden">
             <div className="flex w-[116px] h-[19px] overflow-hidden">
-              {Array.from({ length: 5 }).map((i) => (
+              {Array.from({ length: 5 }).map((_i) => (
                 <img src={strike} className="shrink-0 pr-[4px]" />
               ))}
             </div>
