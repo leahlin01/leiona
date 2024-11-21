@@ -1,18 +1,6 @@
 import React from "react";
-// import ReactMarkdown from "react-markdown";
 
 const CourseOne: React.FC = () => {
-  // const [markdownContent, setMarkdownContent] = useState<string>("");
-
-  // useEffect(() => {
-
-  //   fetch("../md/course1.md")
-  //     .then((response) => {
-  //       console.log(response, response.text());
-  //       return response.text();
-  //     })
-  //     .then((text) => setMarkdownContent(text));
-  // }, []);
   return (
     <div className="flex flex-col justify-center sm:mx-[20px] md:mx-[40px] lg:mx-36 text-left">
       <div className="flex gap-[20px] flex-wrap">
@@ -87,13 +75,6 @@ const CourseOne: React.FC = () => {
           </ul>
         </div>
       </div>
-
-      {/* <div
-        className={`prose prose-h1:text-4xl prose-h1:text-green prose-p:text-base prose-strong:text-blue prose-ul:list-decimal prose-ul:text-dark
-`}
-      >
-        <ReactMarkdown>{markdownContent}</ReactMarkdown>
-      </div> */}
 
       <div className="p-8 text-left">
         <h2 className="text-2xl font-bold mb-4">课程特点</h2>

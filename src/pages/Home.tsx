@@ -124,11 +124,10 @@ const Home: React.FC = () => {
             title={
               <div className="text-[2rem] line-[2rem] text-right">
                 <span>
-                  Aprender chino adaptadoal pensamiento de laslenguas
-                  occidentales.
+                  La belleza de la cultura tradicional china -- Caligrafía
                 </span>
                 <br />
-                <span>中国传统文化之美--书法</span>
+                <span>中国传统文化之美——书法</span>
                 <br />
               </div>
             }
@@ -156,7 +155,7 @@ const Home: React.FC = () => {
         }
       />
 
-      <div className="flex flex-col items-start gap-y-[80px] px-[64px] py-[112px] w-[1440px] bg-[var(--Background-color-primary,#ffffff)] overflow-hidden text-[var(--Text-primary,#000000)] font-['Roboto'] font-[700] text-left whitespace-normal tracking-[0px]">
+      <div className="flex flex-col items-start gap-y-[80px] px-[64px] py-[112px] w-full bg-[var(--Background-color-primary,#ffffff)] overflow-hidden text-[var(--Text-primary,#000000)] font-['Roboto'] font-[700] text-left whitespace-normal tracking-[0px]">
         <div className="shrink-0 flex flex-col items-start gap-y-[24px] w-[560px]">
           <p className="text-[48px] leading-[58px] self-stretch shrink-0">
             Testimonios de clientes
@@ -165,7 +164,7 @@ const Home: React.FC = () => {
             Aprender chino ha cambiado mi vida por completo.
           </p>
         </div>
-        <div className="self-stretch shrink-0 flex justify-center items-start gap-x-[64px]">
+        <div className="self-stretch shrink-0 flex justify-center items-start flex-wrap gap-x-[64px] flex-wrap">
           <div className="grow basis-0 flex flex-col items-start gap-y-[32px] overflow-hidden">
             <div className="flex w-[116px] h-[19px] overflow-hidden">
               {Array.from({ length: 5 }).map((_i) => (
@@ -233,7 +232,7 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-y-[80px] px-[336px] py-[112px] w-[1440px] bg-[#ffffff] text-[var(--Text-primary,#000000)] font-['Roboto'] text-[16px] leading-[24px] tracking-[0px] font-[400] whitespace-normal">
+      <div className="flex flex-col items-center gap-y-[80px] px-[336px] py-[112px] bg-[#ffffff] text-[var(--Text-primary,#000000)] font-['Roboto'] text-[16px] leading-[24px] tracking-[0px] font-[400] whitespace-normal">
         <div className="shrink-0 flex flex-col items-center gap-y-[24px] w-[768px] text-center">
           <p className="text-[48px] leading-[58px] font-[700] self-stretch shrink-0">
             Preguntas
@@ -243,7 +242,7 @@ const Home: React.FC = () => {
             de aprendizaje del idioma chino.
           </p>
         </div>
-        <div className="self-stretch shrink-0 flex flex-col items-start border-solid border-[var(--Border-primary,#000000)] border-x-[0px] border-t-[0px] border-b-[1px] text-left">
+        <div className="self-stretch mx-auto shrink-0 flex flex-col items-start border-solid border-[var(--Border-primary,#000000)] border-x-[0px] border-t-[0px] border-b-[1px] text-left">
           {[
             {
               q: `¿Cuánto tiempo hay que dedicar al estudio cada día para ver un progreso notable?`,

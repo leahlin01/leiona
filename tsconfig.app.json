@@ -27,5 +27,5 @@
       ]
     }
   },
-  "include": ["src", "declarations.d.ts"]
+  "include": ["src", "declarations.d.ts", "src/*.md"]
 }

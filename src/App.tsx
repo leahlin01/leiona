@@ -52,7 +52,7 @@ function App() {
             Aviso Legal
           </Link>
           <Link
-            to="https://www.instagram.com/leonastudygram?igsh=YmUyN2RieHVrZWFj&utm_source=qr"
+            to="mailto:hosea0814@gmail.com"
             target="_blank"
             className="text-foreground hover:text-primary font-medium"
           >
@@ -73,19 +73,13 @@ function App() {
       </div>
 
       <footer className="bg-[#FFFFFF]">
-        <div className="flex flex-col items-center gap-y-[32px] px-[64px] py-[80px] w-[1440px] bg-[var(--Background-color-primary,#ffffff)] overflow-hidden font-['Roboto'] text-[14px] leading-[21px] tracking-[0px] text-left whitespace-normal">
+        <div className="flex flex-col items-center gap-y-[32px] px-[64px] py-[80px] w-full bg-[var(--Background-color-primary,#ffffff)] overflow-hidden font-['Roboto'] text-[14px] leading-[21px] tracking-[0px] text-left whitespace-normal">
           <div className="shrink-0 flex items-start gap-x-[64px] border-solid border-[var(--Border-primary,#000000)] border-[1px] p-[47px] w-full font-[600]">
             <div className="shrink-0 flex flex-col items-start gap-y-[32px] w-[864px] overflow-hidden text-[var(--Text-primary,#000000)]">
               <div className="shrink-0 flex items-center px-[7px] py-[0px] h-[36px] overflow-hidden">
                 <img src={logo} className="w-[70px] h-[70px] overflow-hidden" />
               </div>
               <div className="self-stretch shrink-0 flex flex-col items-start gap-y-[24px]">
-                <div className="self-stretch shrink-0 flex flex-col items-start gap-y-[4px]">
-                  <p className="self-stretch shrink-0">Dirección:</p>
-                  <p className="font-[400] self-stretch shrink-0">
-                    calle Espronceda 330 1°1ª 08027 Barcelona
-                  </p>
-                </div>
                 <div className="self-stretch shrink-0 flex flex-col items-start gap-y-[4px]">
                   <p className="self-stretch shrink-0">Contacto:</p>
                   <div className="self-stretch shrink-0 flex flex-col items-start text-[var(--Link-primary,#000000)] font-[400]">
