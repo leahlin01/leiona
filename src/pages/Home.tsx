@@ -27,6 +27,7 @@ const Home: React.FC = () => {
                 <br />
                 ideal para principiantes.
                 <br />
+                最适合初学者入门的西语课程
               </>
             }
             caption={

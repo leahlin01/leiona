@@ -1,4 +1,9 @@
 import React from "react";
+import caligra1 from "../assets/caligra1.png";
+import caligra2 from "../assets/caligra2.png";
+import caligra3 from "../assets/caligra3.png";
+import caligra from "../assets/caligra.png";
+import caligra5 from "../assets/caligra5.png";
 const CourseThree: React.FC = () => {
   return (
     <div className="flex flex-col justify-center sm:mx-[20px] md:mx-[40px] lg:mx-36 text-left">
@@ -181,7 +186,11 @@ const CourseThree: React.FC = () => {
           una parte imprescindible del arte tradicional chino.
         </p>
 
-        <h1>Origen y desarrollo de la caligrafía</h1>
+        <hr className="border-gray-300 my-4" />
+
+        <h2 className="text-2xl font-bold mb-4">
+          Origen y desarrollo de la caligrafía
+        </h2>
         <p>
           La historia de la caligrafía se remonta a miles de años atrás, a la
           era de los caracteres en huesos oraculares y los textos en bronce. A
@@ -195,6 +204,96 @@ const CourseThree: React.FC = () => {
           escritura cursiva expresa las emociones y la creatividad del calígrafo
           con líneas libres y fluidas.
         </p>
+
+        <hr className="border-gray-300 my-4" />
+
+        <h2 className="text-2xl font-bold mb-4">
+          Significado cultural de la caligrafía
+        </h2>
+        <p>
+          La caligrafía no solo es un arte de escritura, sino también un medio
+          importante para transmitir pensamientos y emociones. Los antiguos
+          chinos creían que la práctica de la caligrafía era un camino para
+          cultivar la mente y el espíritu. Requiere concentración, introspección
+          y serenidad, alcanzando así el ideal de que “la caligrafía refleja la
+          personalidad del autor”. Una obra caligráfica excelente puede revelar
+          el carácter, el conocimiento y los sentimientos del escritor. Por
+          ejemplo, El Prefacio al Pabellón de las Orquídeas de Wang Xizhi, con
+          su trazo fluido y natural y su atmósfera elegante, es considerada “la
+          mejor obra de escritura semi-cursiva del mundo”.
+        </p>
+
+        <hr className="border-gray-300 my-4" />
+
+        <h2 className="text-2xl font-bold mb-4">
+          Valor artístico de la caligrafía
+        </h2>
+        <p>
+          El valor artístico de la caligrafía se refleja no solo en sus
+          características estéticas, sino también en su profundo pensamiento
+          filosófico. Por ejemplo, los “puntos, líneas y espacios” en la
+          caligrafía deben tener un equilibrio adecuado, lo que refleja la idea
+          china del “equilibrio del yin y el yang”. Además, la caligrafía
+          enfatiza el concepto de “qi yun sheng dong” (dinamismo y armonía), que
+          coincide con las ideas de creación en la pintura y la poesía chinas.
+        </p>
+
+        <hr className="border-gray-300 my-4" />
+
+        <h2 className="text-2xl font-bold mb-4">
+          Significado de la caligrafía en la sociedad moderna
+        </h2>
+        <p>
+          Aunque en la era tecnológica la escritura digital es predominante, la
+          caligrafía sigue teniendo un papel importante en la sociedad actual.
+          No solo representa una tradición artística, sino también una ventana
+          para comprender la cultura china. En el ritmo acelerado de la vida
+          moderna, la caligrafía puede ayudar a las personas a reducir la
+          velocidad, apreciar la belleza de los caracteres y experimentar la
+          tranquilidad interior.
+        </p>
+
+        {[
+          { t: "篆书：峄山碑", img: caligra1 },
+          { t: "隶书：张迁碑", img: caligra2 },
+          { t: "楷书：多宝塔碑", img: caligra3 },
+          { t: "行书：兰亭序", img: caligra },
+          { t: "草书：古诗四帖", img: caligra5 },
+        ].map((i) => (
+          <div className="flex flex-col items-center justify-center py-4">
+            <img src={i.img} />
+            <span>{i.t}</span>
+          </div>
+        ))}
+
+        {[
+          {
+            t: "中国传统艺术：书法的魅力",
+            c: "书法是中国传统文化的瑰宝之一，被誉为“无声的诗”、“无形的舞蹈”和“凝固的音乐”。它不仅是一种文字书写的形式，更是一门融艺术、文化和哲学于一体的独特艺术。书法以其优美的线条和深厚的文化内涵，成为中国传统艺术中不可或缺的一部分。",
+          },
+          {
+            t: "书法的起源与发展",
+            c: "书法的历史可以追溯到几千年前的甲骨文和金文时代。随着汉字的演变，篆书、隶书、楷书、行书和草书等各种书体相继出现，每种书体都承载了特定时代的文化特质和艺术风貌。例如，篆书以其对称和整齐的美感，展现了古代汉字的庄重；而草书则以自由流畅的线条表达了书写者的情感和创造力。",
+          },
+          {
+            t: "书法的文化内涵",
+            c: "书法不仅是书写文字的艺术，也是传达思想和情感的重要方式。中国古人认为，书法是一种修身养性的途径，书写时需要专注、内敛和沉静，从而达到“书如其人”的境界。一幅优秀的书法作品，能够反映出书写者的性格、学识以及情感。正如王羲之的《兰亭序》，其笔法流畅自然，意境优雅，被誉为“天下第一行书”。",
+          },
+          {
+            t: "书法的艺术价值",
+            c: "书法的艺术价值不仅体现在其美学特征上，还蕴含着深厚的哲学思想。例如，书法中的“点、线、面”讲究疏密有致，体现了中国文化中的“阴阳平衡”理念。同时，书法强调“气韵生动”，这与中国绘画和诗歌的创作理念不谋而合。",
+          },
+          {
+            t: "书法在现代社会中的意义",
+            c: "尽管科技时代让数字化书写成为主流，但书法在现代社会依然有着重要的意义。它不仅是一种艺术传承，也是了解中国文化的重要窗口。在当今快节奏的生活中，书法可以帮助人们放慢脚步，感受文字之美，体验内心的平静。",
+          },
+        ].map((i) => (
+          <>
+            <hr className="border-gray-300 my-4" />
+            <h2 className="text-2xl font-bold mb-4">{i.t}</h2>
+            <p>{i.c}</p>
+          </>
+        ))}
       </div>
     </div>
   );

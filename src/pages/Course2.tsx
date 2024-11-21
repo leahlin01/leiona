@@ -92,24 +92,31 @@ const CourseTwo: React.FC = () => {
         </ul>
 
         <h3 className="mt-6">
-          Tercera etapa: Práctica avanzada y creación (Semana 9-12)
+          Tercera etapa: Comunicación diaria y cultura china (Semana 6-8)
         </h3>
         <ul className="list-disc list-outside text-left pl-4">
           <li>
-            Objetivo: Escribir oraciones completas y experimentar la belleza
-            artística del estilo Kaishu.
+            Objetivo: Poder participar en diálogos básicos y conocer aspectos
+            introductorios de la cultura china.
           </li>
           <li>
             Contenido del curso:
             <ul>
               <li>
-                Práctica de frases clásicas (como “宁静致远” - “La tranquilidad
-                lleva a lo lejano” o “厚德载物” - “La virtud sostiene el mundo”)
+                Simulación de diálogos en contextos reales (clima, transporte,
+                horarios)
               </li>
-              <li>Composición y diseño de obras caligráficas</li>
-              <li>Creación de una obra completa por cada estudiante</li>
               <li>
-                Comentarios y sugerencias personalizadas para mejorar las obras
+                Clases culturales: escritura de caracteres y frases típicas de
+                felicitación
+              </li>
+              <li>
+                Lectura y memorización de textos cortos (por ejemplo, el poema
+                clásico Jìng Yè Sī)
+              </li>
+              <li>
+                Realización de pequeñas actuaciones en chino como actividad
+                final
               </li>
             </ul>
           </li>
@@ -121,18 +128,12 @@ const CourseTwo: React.FC = () => {
       <div className="p-8 text-left">
         <h2 className="text-2xl font-bold mb-4">Tareas adicionales</h2>
         <ul className="list-disc list-outside text-left pl-4">
+          <li>Ejercicios de escucha y vocabulario después de cada clase</li>
           <li>
-            Ejercicios semanales de trazos y práctica de caracteres (10-15
-            minutos al día)
+            Redacción de pequeñas composiciones o grabaciones de diálogos los
+            fines de semana
           </li>
-          <li>
-            Los estudiantes deberán subir sus tareas para recibir comentarios en
-            línea
-          </li>
-          <li>
-            Se proporcionarán modelos clásicos de caligrafía para práctica
-            autónoma
-          </li>
+          <li>Revisión y pruebas de repaso cada dos semanas</li>
         </ul>
       </div>
 
@@ -142,20 +143,16 @@ const CourseTwo: React.FC = () => {
         <h2 className="text-2xl font-bold mb-4">Puntos destacados del curso</h2>
         <ul className="list-disc list-outside text-left pl-4">
           <li>
-            Enfoque en lo básico: Desde los trazos hasta la estructura,
-            fortaleciendo las bases de la caligrafía.
+            Aprendizaje personalizado: Contenidos ajustados según el nivel de
+            los estudiantes
           </li>
           <li>
-            Interacción personalizada: Clases en grupos pequeños, con atención
+            Enfoque interactivo: Gran cantidad de ejercicios prácticos de
+            escucha y conversación
           </li>
           <li>
-            Inmersión cultural: Introducción a la historia y el significado
-            cultural de la caligrafía, para comprender el arte detrás de los
-            caracteres.
-          </li>
-          <li>
-            Resultados tangibles: Al finalizar el curso, los estudiantes podrán
-            crear una obra completa y disfrutar del sentido de logro.
+            Inmersión cultural: Introducción a la caligrafía, poesía y otras
+            tradiciones chinas
           </li>
         </ul>
       </div>
@@ -166,8 +163,7 @@ const CourseTwo: React.FC = () => {
         <h2 className="text-2xl font-bold mb-4">Resultados del aprendizaje</h2>
         <ul className="list-disc list-outside text-left pl-4">
           <li>
-            Dominar el sistema pinyin y las estructuras básicas del idioma
-            chino
+            Dominar el sistema pinyin y las estructuras básicas del idioma chino
           </li>
           <li>Aprender de 100 a 150 palabras clave</li>
           <li>Poder mantener conversaciones simples en chino</li>
@@ -181,7 +177,11 @@ const CourseTwo: React.FC = () => {
       <hr className="border-gray-300 my-4" />
 
       <div className="p-8 text-left">
-        <h2 className="text-2xl font-bold mb-4">¿Por qué aprender chino?</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          ¿Por qué aprender chino?
+          <br />
+          为什么要学中文？
+        </h2>
         <p>
           El chino es uno de los idiomas más hablados del mundo y una de las
           seis lenguas oficiales de las Naciones Unidas. Aprender chino no solo
