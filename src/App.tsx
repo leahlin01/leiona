@@ -4,6 +4,8 @@ import { Link, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
 import Legal from './pages/Legal';
+import CourseOne from './pages/Course1';
+import CourseTwo from './pages/Course2';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -59,6 +61,8 @@ function App() {
       <div className='py-[148px]'>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/course1' element={<CourseOne />} />
+          <Route path='/course2' element={<CourseTwo />} />
           <Route path='/privacy' element={<Privacy />} />
           <Route path='/legal' element={<Legal />} />
         </Routes>
