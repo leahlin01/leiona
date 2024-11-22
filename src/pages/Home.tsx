@@ -143,7 +143,7 @@ const Home: React.FC = () => {
                 Curso básico de caligrafia: Introducción alestilo
                 Kaishy(escritura regular)
               </strong>{" "}
-              699€/人
+              360€/人
             </div>
             <div className="text-lg mt-2">
               <strong>Objetivo del curso:</strong> A través de un aprendizaje
