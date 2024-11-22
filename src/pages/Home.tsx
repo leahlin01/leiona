@@ -101,8 +101,9 @@ const Home: React.FC = () => {
             <div className="text-lg font-bold">
               Nombre del curso:{" "}
               <strong>Curso de Introducción al Chino para Principiantes</strong>{" "}
-              520€/人
+               520€/人
             </div>
+            
             <div className="text-lg mt-2">
               <strong>Objetivo del curso:</strong> Ayudar a los estudiantes sin{" "}
               <strong>conocimientos previos</strong> de chino a dominar el{" "}
