@@ -21,8 +21,13 @@ export default function ({
     >
       <img
         src={src}
-        className={`shrink-0  h-[507px]`}
-        style={{ maxWidth: width ? width - 50 : 603 }}
+        className={`shrink-0 overflow-hidden object-cover`}
+        style={{
+          maxWidth: width ? width - 50 : 603,
+          width: width ? width - 50 : 603,
+          height: 507,
+          maxHeight: 507,
+        }}
       />
       <div
         className={`mx-[0px] mt-[-50px] mb-[0px] w-fit shrink-0 flex flex-col items-start h-[266px] bg-[var(--academialam-com-White-66,var(--color-white-66,#ffffffa8))]`}

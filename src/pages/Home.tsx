@@ -250,7 +250,7 @@ const Home: React.FC = () => {
       {/* articles */}
       <div className="flex flex-col items-center gap-y-[80px] px-[64px] py-[112px] w-full font-['Roboto'] font-[700] text-left whitespace-normal tracking-[0px]">
         <HomeImg
-          width={900}
+          width={725}
           onClick={() => navigate("/article1")}
           src={homeimg1}
           title={
@@ -269,24 +269,22 @@ const Home: React.FC = () => {
 
         <HomeImg
           src={homeimg2}
-          width={900}
+          width={725}
           title={
             <>
-               <br />
+              <br />
               ¿Por qué aprender español?
               <br />
               为什么学习西语？
             </>
           }
-          caption={
-            <></>
-          }
+          caption={<></>}
           onClick={() => navigate("/article2")}
         />
 
         <HomeImg
           src={caligra3}
-          width={900}
+          width={725}
           title={
             <div>
               <span>¿Por qué aprender chino?</span>
