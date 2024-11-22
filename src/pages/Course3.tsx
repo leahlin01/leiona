@@ -254,11 +254,11 @@ const CourseThree: React.FC = () => {
         </p>
 
         {[
-          { t: "篆书：峄山碑", img: caligra1 },
-          { t: "隶书：张迁碑", img: caligra2 },
-          { t: "楷书：多宝塔碑", img: caligra3 },
-          { t: "行书：兰亭序", img: caligra },
-          { t: "草书：古诗四帖", img: caligra5 },
+          { t: "篆书：峄山碑 YISHANBEI", img: caligra1 },
+          { t: "隶书：张迁碑 ZHANGQIANBEI", img: caligra2 },
+          { t: "楷书：多宝塔碑 DUOBAOTABEI", img: caligra3 },
+          { t: "行书：兰亭序 LANTINGXU", img: caligra },
+          { t: "草书：古诗四帖 GUSHISITIE", img: caligra5 },
         ].map((i) => (
           <div className="flex flex-col items-center justify-center py-4">
             <img src={i.img} />
