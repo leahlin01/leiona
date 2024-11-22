@@ -113,7 +113,7 @@ const Home: React.FC = () => {
                   <br />
                   ideal para principiantes.
                   <br />
-                  最适合初学者入门的西语课程
+                  西班牙语入门课程简介
                 </>
               }
               caption={
@@ -176,7 +176,7 @@ const Home: React.FC = () => {
                     occidentales.
                   </span>
                   <br />
-                  <span>适合西方语言思维的中文学习</span>
+                  <span>最适合西方人学习的中文课程</span>
                   <br />
                 </div>
               }
@@ -214,11 +214,11 @@ const Home: React.FC = () => {
               width={700}
               title={
                 <div className="text-[2rem] line-[2rem] text-right">
-                  <span>
-                    La belleza de la cultura tradicional china -- Caligrafía
-                  </span>
+                  <span>La belleza de la cultura</span>
+                  <br></br>
+                  tradicional china -- Caligrafía
                   <br />
-                  <span>中国传统文化之美——书法</span>
+                  <span>中国传统艺术——书法课程简介</span>
                   <br />
                 </div>
               }
