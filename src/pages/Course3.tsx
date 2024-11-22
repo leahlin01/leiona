@@ -9,7 +9,7 @@ const CourseThree: React.FC = () => {
     <div className="flex flex-col justify-center sm:mx-[20px] md:mx-[40px] lg:mx-36 text-left">
       <div className="p-8 text-left">
         <h2 className="text-2xl font-bold mb-4">
-          urso básico de caligrafía: Introducción al estilo Kaishu (escritura
+          Curso básico de caligrafía: Introducción al estilo Kaishu (escritura
           regular)  360€/人
         </h2>
         <ul className="list-disc list-outside text-left pl-4">
