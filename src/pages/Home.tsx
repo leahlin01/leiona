@@ -3,16 +3,22 @@ import city from "../assets/city.png";
 import panda from "../assets/panda.png";
 import caligra from "../assets/caligra.png";
 import avatar from "../assets/avatar.png";
-import avatar2 from "../assets/avatar2.png";
-import avatar3 from "../assets/avatar3.png";
 import { useNavigate } from "react-router-dom";
 import HomeCompose from "@/components/HomeCompose";
 import HomeImg from "@/components/HomeImg";
-import strike from "../assets/strike.svg";
 import up from "../assets/up.svg";
+import homeimg1 from "../assets/homeimg1.png";
+import homeimg2 from "../assets/homeimg2.png";
+import caligra3 from "../assets/caligra3.png";
 
 const Home: React.FC = () => {
-  const navigate = useNavigate();
+  const navigateTo = useNavigate();
+
+  const navigate = (val: string) => {
+    navigateTo(val);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="flex flex-col justify-center">
       <HomeCompose
@@ -157,7 +163,59 @@ const Home: React.FC = () => {
         }
       />
 
-      <div className="flex flex-col items-start gap-y-[80px] px-[64px] py-[112px] w-full bg-[var(--Background-color-primary,#ffffff)] overflow-hidden text-[var(--Text-primary,#000000)] font-['Roboto'] font-[700] text-left whitespace-normal tracking-[0px]">
+      {/* articles */}
+      <div className="flex flex-col items-center gap-y-[80px] px-[64px] py-[112px] w-full font-['Roboto'] font-[700] text-left whitespace-normal tracking-[0px]">
+        <HomeImg
+          width={900}
+          onClick={() => navigate("/article1")}
+          src={homeimg1}
+          title={
+            <>
+              ¿Cómo aplicar el enfoque
+              <br />
+              de input comprensible?
+              <br />
+              如何应用可输入理解法？
+            </>
+          }
+          caption={
+            <>El español es una de las lenguas más habladas en el mundo</>
+          }
+        />
+
+        <HomeImg
+          src={homeimg2}
+          width={900}
+          title={
+            <>
+              ¿Por qué aprender español?
+              <br />
+              如何学习西语？
+            </>
+          }
+          caption={
+            <>El español es una de las lenguas más habladas en el mundo</>
+          }
+          onClick={() => navigate("/article2")}
+        />
+
+        <HomeImg
+          src={caligra3}
+          width={900}
+          title={
+            <div>
+              <span>¿Por qué aprender chino?</span>
+              <br />
+              <span>如何学习中文？</span>
+              <br />
+            </div>
+          }
+          caption={<></>}
+          onClick={() => navigate("/article3")}
+        />
+      </div>
+
+      {/* <div className="flex flex-col items-start gap-y-[80px] px-[64px] py-[112px] w-full bg-[var(--Background-color-primary,#ffffff)] overflow-hidden text-[var(--Text-primary,#000000)] font-['Roboto'] font-[700] text-left whitespace-normal tracking-[0px]">
         <div className="shrink-0 flex flex-col items-start gap-y-[24px] w-[560px]">
           <p className="text-[48px] leading-[58px] self-stretch shrink-0">
             Testimonios de clientes
@@ -210,7 +268,7 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="w-full mx-auto text-white bg-[#451a03] overflow-hidden">
         <div className="p-6 flex flex-col items-center justify-center">

@@ -9,11 +9,24 @@ import CourseTwo from "./pages/Course2";
 import logo from "./assets/logo.png";
 import ins from "./assets/ins.svg";
 import CourseThree from "./pages/Course3";
+import { Buffer } from "buffer";
+import Article1 from "./pages/Article1";
+import Article2 from "./pages/Article2";
+import Article3 from "./pages/Article3";
+
+if (typeof window !== "undefined") {
+  window.Buffer = Buffer;
+}
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
 
-  const navigate = useNavigate();
+  const navigateTo = useNavigate();
+
+  const navigate = (val: string) => {
+    navigateTo(val);
+    window.scrollTo(0, 0);
+  };
   // 检查 cookie 是否存在
   const checkCookie = () => {
     const cookieValue = document.cookie
@@ -67,6 +80,9 @@ function App() {
           <Route path="/course1" element={<CourseOne />} />
           <Route path="/course2" element={<CourseTwo />} />
           <Route path="/course3" element={<CourseThree />} />
+          <Route path="/article1" element={<Article1 />} />
+          <Route path="/article2" element={<Article2 />} />
+          <Route path="/article3" element={<Article3 />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/legal" element={<Legal />} />
         </Routes>
