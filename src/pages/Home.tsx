@@ -272,6 +272,7 @@ const Home: React.FC = () => {
           width={900}
           title={
             <>
+               <br />
               ¿Por qué aprender español?
               <br />
               为什么学习西语？
