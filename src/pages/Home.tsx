@@ -274,11 +274,11 @@ const Home: React.FC = () => {
             <>
               ¿Por qué aprender español?
               <br />
-              如何学习西语？
+              为什么学习西语？
             </>
           }
           caption={
-            <>El español es una de las lenguas más habladas en el mundo</>
+            <></>
           }
           onClick={() => navigate("/article2")}
         />
@@ -290,7 +290,7 @@ const Home: React.FC = () => {
             <div>
               <span>¿Por qué aprender chino?</span>
               <br />
-              <span>如何学习中文？</span>
+              <span>为什么学习中文？</span>
               <br />
             </div>
           }
