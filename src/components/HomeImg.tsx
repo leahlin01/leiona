@@ -15,16 +15,14 @@ export default function ({
 }) {
   return (
     <div
-      className={`flex flex-col items-end w-[${
-        width ? width + "px" : "651px"
-      }] bg-[var(--academialam-com-White,#ffffff)]`}
+      className={`flex flex-col items-end bg-[var(--academialam-com-White,#ffffff)]`}
       onClick={() => onClick?.()}
+      style={{ maxWidth: width ? width : 651 }}
     >
       <img
         src={src}
-        className={`shrink-0 w-[${
-          width ? width - 50 + "px" : "603px"
-        }] h-[507px]`}
+        className={`shrink-0  h-[507px]`}
+        style={{ maxWidth: width ? width - 50 : 603 }}
       />
       <div
         className={`mx-[0px] mt-[-50px] mb-[0px] shrink-0 flex flex-col items-start pr-[0px] w-[${

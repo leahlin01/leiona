@@ -100,7 +100,7 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-[80px]">
+      <div className="flex flex-col gap-[20px]">
         <HomeCompose
           place="left"
           onClick={() => navigate("/course1")}
@@ -211,6 +211,7 @@ const Home: React.FC = () => {
           imgNode={
             <HomeImg
               src={caligra}
+              width={700}
               title={
                 <div className="text-[2rem] line-[2rem] text-right">
                   <span>
