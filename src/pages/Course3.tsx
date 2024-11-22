@@ -10,7 +10,7 @@ const CourseThree: React.FC = () => {
       <div className="p-8 text-left">
         <h2 className="text-2xl font-bold mb-4">
           urso básico de caligrafía: Introducción al estilo Kaishu (escritura
-          regular) 699€/人
+          regular)  360€/人
         </h2>
         <ul className="list-disc list-outside text-left pl-4">
           <li>
@@ -28,7 +28,7 @@ const CourseThree: React.FC = () => {
       <div className="p-8 text-left">
         <h2 className="text-2xl font-bold mb-4">Plan del curso</h2>
         <ul className="list-disc list-outside text-left pl-4">
-          <li>Duración total: 20 semanas (5 meses)</li>
+          <li>Duración total: 12 semanas (3 meses)</li>
           <li>Horario: 1 clase por semana, 2 hora por sesión</li>
           <li>
             Modalidad: Clases en línea con grupos pequeños (máximo 6 personas),
