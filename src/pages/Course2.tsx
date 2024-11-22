@@ -65,27 +65,24 @@ const CourseTwo: React.FC = () => {
         </ul>
 
         <h3 className="mt-6">
-          Segunda etapa: Radicales y estructuras (Semana 5-8)
-        </h3>
+          Segunda etapa: Vocabulario y estructuras básicas (Semana 3-5)</h3>
         <ul className="list-disc list-outside text-left pl-4">
           <li>
-            Objetivo: Dominar los radicales comunes y la composición estructural
-            de los caracteres.
+            Objetivo: Aprender de 50 a 100 palabras frecuentes y 10 estructuras 
+            básicas para construir frases simples.
           </li>
           <li>
             Contenido del curso:
             <ul>
               <li>
-                Uso correcto del pincel (posición de la mano, manejo de la
-                tinta)
+                Frases y expresiones cotidianas (como “hola” y “gracias”)
               </li>
               <li>
-                Trazos básicos del estilo Kaishu: punto, línea horizontal, línea
-                vertical, curva ascendente, ganchos y diagonales
+                Presentarse y describir a otros (por ejemplo, “Me llamo…” “Él es mi amigo”)
               </li>
-              <li>Explicación del orden y presión de los trazos</li>
+              <li>Diálogos en situaciones diarias (compras, pedir direcciones, pedir comida)</li>
               <li>
-                Práctica de caracteres simples (por ejemplo, “一”, “人”, “日”)
+                Explicación de estructuras básicas (sujeto-verbo-objeto, preguntas)
               </li>
             </ul>
           </li>
