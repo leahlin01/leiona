@@ -123,7 +123,7 @@ const CourseOne: React.FC = () => {
           En resumen, aprender español no es solo aprender un idioma, sino
           también explorar un mundo lleno de posibilidades culturales,
           profesionales y personales. ¡Empieza hoy y descubre todo lo que el
-          español tiene para ofrecer!
+          español tiene para ofrecer!!
         </p>
       </div>
     </div>
